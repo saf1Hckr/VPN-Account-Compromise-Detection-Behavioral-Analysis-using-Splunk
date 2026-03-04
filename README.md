@@ -77,6 +77,15 @@ After identifying the initial brute force noise, logs were analyzed for any succ
 - **Post-Compromise Activity:** Additional login activity recorded for 3–4 consecutive days  
 - **Cessation of Activity:** Logs stopped abruptly after the 4th day  
 
+### Total Stats Query:
+
+```spl
+index=vpn_logs UserName="Simon"
+| stats count by action, Source_Country, Source_ip
+```
+
+![Brute Force](https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/total_count.png)
+
 ### Timeline Query:
 
 ```spl
@@ -84,9 +93,8 @@ index=vpn_logs UserName="Simon"
 | stats count by action, Source_Country, Source_ip, EventTime
 ```
 
-<p align="center">
-  <img src="screenshots/brute_force.png" width="800"/>
-</p>
+![EventTime](https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/EventTime.png)
+
 
 ---
 

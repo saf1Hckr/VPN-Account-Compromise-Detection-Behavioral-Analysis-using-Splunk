@@ -81,7 +81,7 @@ After identifying the initial brute force noise, logs were analyzed for any succ
 
 ```spl
 index=vpn_logs UserName="Simon"
-| stats count by action, Source_Country, Source_ip
+| stats count by action, Source_Country, Source_ip, EventTime
 ```
 
 <p align="center">
@@ -152,9 +152,7 @@ A second user, Johnny Brown, was analyzed during the investigation sweep.
 - No sustained or abnormal activity  
 - No geographic anomaly detected  
 
-<p align="center">
-  <img src="screenshots/brute_force.png" width="800"/>
-</p>
+![Brute Force]([(https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/total_count.png)])
 
 
 ### Outcome:

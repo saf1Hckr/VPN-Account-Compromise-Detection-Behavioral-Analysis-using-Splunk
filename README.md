@@ -155,7 +155,7 @@ A second user, Johnny Brown, was analyzed during the investigation sweep.
 - No sustained or abnormal activity  
 - No geographic anomaly detected  
 
-![Brute Force]([(https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/total_count.png)])
+![Jhonny Brown](https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/Jhonny_Brown.png)
 
 
 ### Outcome:

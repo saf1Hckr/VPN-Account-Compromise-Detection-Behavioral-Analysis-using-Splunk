@@ -128,15 +128,10 @@ index=vpn_logs (action="built" OR action="teardown")
 | stats avg(total_hours) as avg_daily_hours by UserName
 ```
 
-<p align="center">
-  <img src="screenshots/brute_force.png" width="800"/>
-</p>
+![AverageHour](https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/Avg_Hour.png)
 
 
-<p align="center">
-  <img src="screenshots/brute_force.png" width="800"/>
-</p>
-
+![PieChart](https://github.com/saf1Hckr/VPN-Account-Compromise-Detection-Behavioral-Analysis-using-Splunk/blob/main/Pie_Chart.png)
 
 ---
 

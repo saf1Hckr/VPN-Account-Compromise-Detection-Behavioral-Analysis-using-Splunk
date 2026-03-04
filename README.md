@@ -81,8 +81,7 @@ After identifying the initial brute force noise, logs were analyzed for any succ
 
 ```spl
 index=vpn_logs UserName="Simon"
-| sort _time
-| table _time action Source_Country
+| stats count by action, Source_Country, Source_ip
 ```
 
 <p align="center">
